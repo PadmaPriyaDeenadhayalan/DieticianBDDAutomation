@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="33" time="1.806">
+<testcase classname="About Link on Home Page" name="Validating the About Link on Home Page" time="0.724">
+<system-out><![CDATA[Given User is on Home page "Home"...........................................passed
+When User clicks on About Link on Home page.................................passed
+Then User is directed to About Page "About".................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Blogs link on Home Page" name="Validating the Blogs link on Home page" time="0.023">
+<system-out><![CDATA[Given User is on Home page "Home"...........................................passed
+When User clicks on Blogs link..............................................passed
+Then User is directed to Blogs Page "Blogs".................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Client Link on Home Page" name="Validating the Client link on Upper Menu Bar  on Home page" time="0.016">
+<system-out><![CDATA[Given User is on Home page "Home"...........................................passed
+When User clicks on Client link on Home Page................................passed
+Then User is re-directed to  Client Testimonial Page "Client"...............passed
+]]></system-out>
+</testcase>
+<testcase classname="Contact Us link on Home Page" name="Validating the Contact us link on Home page" time="0.012">
+<system-out><![CDATA[Given User is on Home page "Home"...........................................passed
+When User clicks on  Contact us link........................................passed
+Then User is directed to Contact us Page "ContactUs"........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Data fields on Contact us Page" name="Validating all fields on Contact us page" time="0.023">
+<system-out><![CDATA[Given User is on "Contact Us" Page..........................................passed
+When User enters submit button with all fields empty........................passed
+Then User should get a message Please fill all fields above.................passed
+]]></system-out>
+</testcase>
+<testcase classname="Data fields on Contact us Page" name="Validating the First Name field on Contact Us Page" time="0.003">
+<system-out><![CDATA[Given User is on "Contact Us" Page..........................................passed
+When User enters first name with some numeric values and other fields with valid values and clicks submit button.passed
+Then User should get a message Please fill first name with charactersof maximum ten characters long.passed
+]]></system-out>
+</testcase>
+<testcase classname="Data fields on Contact us Page" name="Validating the Last Name fieldon Contact Us Page" time="0.003">
+<system-out><![CDATA[Given User is on "Contact Us" Page..........................................passed
+When User enters Last  Name field with some numeric values and other fields with valid values and click submit button.passed
+Then User should get a message Please fill Last Name with charactersof maximum ten characters long.passed
+]]></system-out>
+</testcase>
+<testcase classname="Data fields on Contact us Page" name="Validating the Email field on Contact Us Page" time="0.009">
+<system-out><![CDATA[Given User is on "Contact Us" Page..........................................passed
+When User enters Email with some image values and other fields with valid values and click submit button.passed
+Then User should get a message Please fill Email field with character,numeric and special character combinations.passed
+]]></system-out>
+</testcase>
+<testcase classname="Data fields on Contact us Page" name="Validating Subject field on Contact Us Page" time="0.003">
+<system-out><![CDATA[Given User is on "Contact Us" Page..........................................passed
+When User enters Subject with some numeric values and other fields with valid values and  click submit button.passed
+Then User should get a message Please fill Subject field with some chacters of maximum twenty letters length.passed
+]]></system-out>
+</testcase>
+<testcase classname="Data fields on Contact us Page" name="Validating &quot;Write your Message Here&quot; field on Contact Us Page" time="0.011">
+<system-out><![CDATA[Given User is on "Contact Us" Page..........................................passed
+When User enters Write your Message Here with some numeric values and other fields with valid values and clicks submit button.passed
+Then User should get a message Please fill Write your Message here field with  alphabet characters  of maximum two hundred length.passed
+]]></system-out>
+</testcase>
+<testcase classname="Data fields on Contact us Page" name="Validating all valid entries for all fields" time="0.007">
+<system-out><![CDATA[Given User is on "Contact Us" Page..........................................passed
+When User enters all valid values in fields and click submit button.........passed
+Then User should get a message Your Request is Submitted....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature link on Home Page" name="Validating the Feature Link on Home Page" time="0.012">
+<system-out><![CDATA[Given User is on Home page "Home"...........................................passed
+When User clicks on Featured link...........................................passed
+Then User is directed to Featured content page "Featured"...................passed
+]]></system-out>
+</testcase>
+<testcase classname="Menu bar options and Logo on the Home Page" name="Validating the logo on the Home page" time="0.014">
+<system-out><![CDATA[Given User is on the browser................................................passed
+When User opens the Dietician Website "https://DieticianWebsite.com"........passed
+Then User should see a logo image with the company name on the Home Page "Company Name".passed
+]]></system-out>
+</testcase>
+<testcase classname="Menu bar options and Logo on the Home Page" name="Validating the tab &quot;PRODUCT&quot; visibility on the menu bar of Home page" time="0.009">
+<system-out><![CDATA[Given User is on the browser................................................passed
+When User opens the Dietician Website "https://DieticianWebsite.com"........passed
+Then User should see a tab with text "PRODUCT" on the top menu bar of the Home page.passed
+]]></system-out>
+</testcase>
+<testcase classname="Menu bar options and Logo on the Home Page" name="Validating the tab &quot;CLIENTS&quot; visibility on the menu bar of Home page" time="0.005">
+<system-out><![CDATA[Given User is on the browser................................................passed
+When User opens the Dietician Website "https://DieticianWebsite.com"........passed
+Then User should see a tab with text "CLIENTS" on the top menu bar of the Home page.passed
+]]></system-out>
+</testcase>
+<testcase classname="Menu bar options and Logo on the Home Page" name="Validating the tab &quot;TEAM&quot; visibility on the menu bar of Home page" time="0.002">
+<system-out><![CDATA[Given User is on the browser................................................passed
+When User opens the Dietician Website "https://DieticianWebsite.com"........passed
+Then User should see a tab with text "TEAM" on the top menu bar of the Home page.passed
+]]></system-out>
+</testcase>
+<testcase classname="Menu bar options and Logo on the Home Page" name="Validating the tab &quot;REGISTER&quot; visibility on the menu bar of Home page" time="0.002">
+<system-out><![CDATA[Given User is on the browser................................................passed
+When User opens the Dietician Website "https://DieticianWebsite.com"........passed
+Then User should see a tab with text "REGISTER" on the top menu bar of the Home page.passed
+]]></system-out>
+</testcase>
+<testcase classname="Menu bar options and Logo on the Home Page" name="Validating the tab &quot;ABOUT&quot; visibility on the menu bar of Home page" time="0.007">
+<system-out><![CDATA[Given User is on the browser................................................passed
+When User opens the Dietician Website "https://DieticianWebsite.com"........passed
+Then User should see a tab with text "ABOUT" on the top menu bar of the Home page.passed
+]]></system-out>
+</testcase>
+<testcase classname="Menu bar options and Logo on the Home Page" name="Validating the tab &quot;FEATURED&quot; visibility on the menu bar of Home page" time="0.003">
+<system-out><![CDATA[Given User is on the browser................................................passed
+When User opens the Dietician Website "https://DieticianWebsite.com"........passed
+Then User should see a tab with text "FEATURED" on the top menu bar of the Home page.passed
+]]></system-out>
+</testcase>
+<testcase classname="Menu bar options and Logo on the Home Page" name="Validating the tab &quot;BLOG&quot; visibility on the menu bar of Home page" time="0.006">
+<system-out><![CDATA[Given User is on the browser................................................passed
+When User opens the Dietician Website "https://DieticianWebsite.com"........passed
+Then User should see a tab with text "BLOG" on the top menu bar of the Home page.passed
+]]></system-out>
+</testcase>
+<testcase classname="Menu bar options and Logo on the Home Page" name="Validating the tab &quot;CONTACT US&quot; visibility on the menu bar of Home page" time="0.002">
+<system-out><![CDATA[Given User is on the browser................................................passed
+When User opens the Dietician Website "https://DieticianWebsite.com"........passed
+Then User should see a tab with text "CONTACT US" on the top menu bar of the Home page.passed
+]]></system-out>
+</testcase>
+<testcase classname="Menu bar options and Logo on the Home Page" name="Validating the tab Search Option on the menu bar of Home page" time="0.004">
+<system-out><![CDATA[Given User is on the browser................................................passed
+When User opens the Dietician Website "https://DieticianWebsite.com"........passed
+Then User should see a search option symbol on the bottom menu bar of the Home page.passed
+]]></system-out>
+</testcase>
+<testcase classname="Menu bar options and Logo on the Home Page" name="Validating the visibility of Signin option on the menu bar of Home page" time="0.007">
+<system-out><![CDATA[Given User is on the browser................................................passed
+When User opens the Dietician Website "https://DieticianWebsite.com"........passed
+Then User should see a Signin option next to the search button on the bottom menu bar of the Home page.passed
+]]></system-out>
+</testcase>
+<testcase classname="Product Link on Home Page" name="Validating the Product link on Home Page" time="0.007">
+<system-out><![CDATA[Given User is on Home page "Home"...........................................passed
+When User clicks on PRODUCT Link on Home Page...............................passed
+Then User is re-directed to  Product Page "ProductTitle"....................passed
+]]></system-out>
+</testcase>
+<testcase classname="REGISTER Link on Home Page" name="Validating the REGISTER link on Upper Menu Bar  on Home page" time="0.01">
+<system-out><![CDATA[Given User is on Home page "Home"...........................................passed
+When User clicks on REGISTER Link on Home Page..............................passed
+Then User is directed to Register page "Register"...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="TEAM Link on Home Page" name="Validating the TEAM link on Upper Menu Bar  on Home page" time="0.007">
+<system-out><![CDATA[Given User is on Home page "Home"...........................................passed
+When User clicks on Team Link on Home Page..................................passed
+Then User is directed to Doctor Team page "Team"............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Pagination of Doctor Teams page" name="Validating the first Page of Doctor Team" time="0.017">
+<system-out><![CDATA[Given User is on Dietician Website "https://DieticianWebsite.com"...........passed
+When User lands on "Teams page".............................................passed
+Then User should see default three Doctor names on first Page...............passed
+]]></system-out>
+</testcase>
+<testcase classname="Pagination of Doctor Teams page" name="Validating default number of Doctor names on first Doctor Team Page" time="0.005">
+<system-out><![CDATA[Given User is on Dietician Website "https://DieticianWebsite.com"...........passed
+When User lands on "Teams page".............................................passed
+Then User should see default three Doctor names on first Page...............passed
+]]></system-out>
+</testcase>
+<testcase classname="Pagination of Doctor Teams page" name="Validating the next page(&gt;) button on the first page of Team" time="0.002">
+<system-out><![CDATA[Given User is on "first page" of Team.......................................passed
+When User clicks on next button(>)..........................................passed
+Then User should be directed to next Doctor names on Team Page..............passed
+]]></system-out>
+</testcase>
+<testcase classname="Pagination of Doctor Teams page" name="Validating next(&gt;)button on the last page of Team" time="0.004">
+<system-out><![CDATA[Given User is on "first page" of Team.......................................passed
+When User lands on last page of Team........................................passed
+Then Next button should be disabled.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Pagination of Doctor Teams page" name="Validating the previous (&lt;) button on first page of Team" time="0.004">
+<system-out><![CDATA[Given User is on Dietician Website "https://DieticianWebsite.com"...........passed
+When User lands on first page of Team.......................................passed
+Then Previous button(<)should be disabled...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Pagination of Doctor Teams page" name="Validating the previous button (&lt;)  when there are previous pages to display" time="0.001">
+<system-out><![CDATA[Given User is on second page of Team........................................passed
+When User clicks on previous button(<)......................................passed
+Then User should be directed to previous names of doctor....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Title of the Home page" name="Validating the title of the Home page" time="0.008">
+<system-out><![CDATA[Given User is on the browser................................................passed
+When User opens the Dietician Website "https://DieticianWebsite.com"........passed
+Then User should see the title of the page as "Home"........................passed
+]]></system-out>
+</testcase>
+</testsuite>
